@@ -1,7 +1,7 @@
 import { pipeline } from 'stream';
 import { createBrotliDecompress } from 'zlib';
 
-import { getCurrentDirectory, getError, getStreams } from "../../../utils/index.js";
+import { getCurrentDirectory, getError, getStreams } from "../../utils/index.js";
 
 export const decompress = async ({ directory, argument, additionalArgument }) => {
 		if(!argument || !additionalArgument) {

@@ -1,4 +1,4 @@
-import { architecture, eol, getCpus, homedir, username } from "../modules/commands/operationSystem/index.js";
+import { architecture, eol, getCpus, homedir, username } from "../commands/operationSystem/index.js";
 
 export const arrayOsCommands = [
 	{

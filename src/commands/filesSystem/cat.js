@@ -1,7 +1,7 @@
 import { stat } from 'fs/promises';
 import { createReadStream } from 'fs';
 
-import { createAbsolutePath, getCurrentDirectory } from "../../../utils/index.js";
+import { createAbsolutePath, getCurrentDirectory } from "../../utils/index.js";
 
 export const cat = async ({ directory, argument }) => {
 	if(!argument) {

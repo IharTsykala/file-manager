@@ -1,7 +1,7 @@
 import { createReadStream, createWriteStream} from 'fs';
 import { pipeline } from 'stream';
 
-import {checkArguments, getCurrentDirectory} from "../../../utils/index.js";
+import {checkArguments, getCurrentDirectory} from "../../utils/index.js";
 
 
 export const cp = async ({ directory, argument, additionalArgument }) => {

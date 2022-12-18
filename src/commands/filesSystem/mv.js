@@ -2,7 +2,7 @@ import { unlink } from 'fs/promises';
 
 import { cp } from "./cp.js";
 
-import { createAbsolutePath, getCurrentDirectory } from "../../../utils/index.js";
+import { createAbsolutePath, getCurrentDirectory } from "../../utils/index.js";
 
 export const mv = async ({ directory, argument, additionalArgument }) => {
 	if(!argument || !additionalArgument) {

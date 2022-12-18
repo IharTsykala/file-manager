@@ -1,4 +1,4 @@
-import {arrayOsCommands} from "../../../constants/index.js";
+import {arrayOsCommands} from "../../constants/index.js";
 
 export { eol } from './eol.js';
 export { getCpus } from './cpus.js';

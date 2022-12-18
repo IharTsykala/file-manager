@@ -1,6 +1,6 @@
-import {getError, showCurrentDirectory} from "../../utils/index.js";
+import {getError, showCurrentDirectory} from "../utils/index.js";
 
-import { arrayBasicCommands } from "../../constants/index.js";
+import { arrayBasicCommands } from "../constants/index.js";
 
 export const executeInputCommands = async ({ inputCommand, directory, argument, additionalArgument }) => {
 	try {

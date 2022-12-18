@@ -1,6 +1,6 @@
 import { EOL, cpus } from "os";
 
-import { getCurrentDirectory } from "../../../utils/index.js";
+import { getCurrentDirectory } from "../../utils/index.js";
 
 const { stdout } = process
 

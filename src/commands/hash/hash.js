@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 import { createHash } from "crypto";
 
-import { createAbsolutePath, getCurrentDirectory } from "../../../utils/index.js";
+import { createAbsolutePath, getCurrentDirectory } from "../../utils/index.js";
 
 export const hash = async ({ directory, argument }) => {
 	if(!argument) {

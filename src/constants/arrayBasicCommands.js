@@ -1,10 +1,10 @@
-import os from "../modules/commands/operationSystem/index.js";
+import os from "../commands/operationSystem/index.js";
 
-import { cd, ls, up } from "../modules/commands/moving/index.js";
-import { add, cat, cp, mv, rm, rn } from "../modules/commands/filesSystem/index.js";
-import { compress, decompress } from "../modules/commands/zip/index.js";
-import { getExitApp } from "../modules/commands/exit/index.js";
-import { hash } from "../modules/commands/hash/index.js";
+import { cd, ls, up } from "../commands/moving/index.js";
+import { add, cat, cp, mv, rm, rn } from "../commands/filesSystem/index.js";
+import { compress, decompress } from "../commands/zip/index.js";
+import { getExitApp } from "../commands/exit/index.js";
+import { hash } from "../commands/hash/index.js";
 
 
 export const arrayBasicCommands = [

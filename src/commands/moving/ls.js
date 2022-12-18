@@ -1,6 +1,6 @@
 import { readdir } from 'fs/promises';
 
-import {getCurrentDirectory} from "../../../utils/index.js";
+import {getCurrentDirectory} from "../../utils/index.js";
 
 export const ls = async ({directory}) => {
 	const files = Array.from(await readdir(directory, { withFileTypes: true }))

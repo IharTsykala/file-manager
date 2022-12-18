@@ -1,4 +1,4 @@
-import { executeInputCommands } from "./modules/commands/index.js";
+import { executeInputCommands } from "./commands/index.js";
 
 import {
 	getCurrentDirectory,
