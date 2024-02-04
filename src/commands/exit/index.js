@@ -1,0 +1,1 @@
+export { getExitApp } from './exit.js';
